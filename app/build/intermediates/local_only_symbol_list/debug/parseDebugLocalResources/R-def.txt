@@ -1,0 +1,23 @@
+R_DEF: Internal format may change without notice
+local
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+drawable app_bg
+drawable auth_header
+drawable ic_launcher
+drawable ic_launcher_foreground
+drawable idea_dolls
+drawable idea_masks
+drawable idea_pouches
+drawable idea_quilt
+drawable idea_scrunchies
+drawable idea_totebag
+string app_name
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string project_id
+style Theme.KutiraKone

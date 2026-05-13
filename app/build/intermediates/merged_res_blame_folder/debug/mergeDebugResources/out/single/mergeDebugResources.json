@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\Gagan's Laptop\\.gradle\\daemon\\9.0.0\\com.example.kutirakone.app-debug-66:\\drawable_idea_scrunchies.png.flat",
+        "source": "C:\\Users\\Gagan's Laptop\\.gradle\\daemon\\9.0.0\\com.example.kutirakone.app-main-68:\\drawable\\idea_scrunchies.png"
+    },
+    {
+        "merged": "com.example.kutirakone.app-debug-66:/drawable_app_bg.png.flat",
+        "source": "com.example.kutirakone.app-main-68:/drawable/app_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Gagan's Laptop\\.gradle\\daemon\\9.0.0\\com.example.kutirakone.app-debug-66:\\drawable_idea_pouches.png.flat",
+        "source": "C:\\Users\\Gagan's Laptop\\.gradle\\daemon\\9.0.0\\com.example.kutirakone.app-main-68:\\drawable\\idea_pouches.png"
+    },
+    {
+        "merged": "C:\\Users\\Gagan's Laptop\\.gradle\\daemon\\9.0.0\\com.example.kutirakone.app-debug-66:\\drawable_idea_dolls.png.flat",
+        "source": "C:\\Users\\Gagan's Laptop\\.gradle\\daemon\\9.0.0\\com.example.kutirakone.app-main-68:\\drawable\\idea_dolls.png"
+    },
+    {
+        "merged": "C:\\Users\\Gagan's Laptop\\.gradle\\daemon\\9.0.0\\com.example.kutirakone.app-debug-66:\\drawable_ic_launcher.png.flat",
+        "source": "C:\\Users\\Gagan's Laptop\\.gradle\\daemon\\9.0.0\\com.example.kutirakone.app-main-68:\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Gagan's Laptop\\.gradle\\daemon\\9.0.0\\com.example.kutirakone.app-debug-66:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Gagan's Laptop\\.gradle\\daemon\\9.0.0\\com.example.kutirakone.app-main-68:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gagan's Laptop\\.gradle\\daemon\\9.0.0\\com.example.kutirakone.app-debug-66:\\drawable_idea_totebag.png.flat",
+        "source": "C:\\Users\\Gagan's Laptop\\.gradle\\daemon\\9.0.0\\com.example.kutirakone.app-main-68:\\drawable\\idea_totebag.png"
+    },
+    {
+        "merged": "C:\\Users\\Gagan's Laptop\\.gradle\\daemon\\9.0.0\\com.example.kutirakone.app-debug-66:\\drawable_auth_header.png.flat",
+        "source": "C:\\Users\\Gagan's Laptop\\.gradle\\daemon\\9.0.0\\com.example.kutirakone.app-main-68:\\drawable\\auth_header.png"
+    },
+    {
+        "merged": "C:\\Users\\Gagan's Laptop\\.gradle\\daemon\\9.0.0\\com.example.kutirakone.app-debug-66:\\drawable_idea_quilt.png.flat",
+        "source": "C:\\Users\\Gagan's Laptop\\.gradle\\daemon\\9.0.0\\com.example.kutirakone.app-main-68:\\drawable\\idea_quilt.png"
+    },
+    {
+        "merged": "C:\\Users\\Gagan's Laptop\\.gradle\\daemon\\9.0.0\\com.example.kutirakone.app-debug-66:\\drawable_idea_masks.png.flat",
+        "source": "C:\\Users\\Gagan's Laptop\\.gradle\\daemon\\9.0.0\\com.example.kutirakone.app-main-68:\\drawable\\idea_masks.png"
+    }
+]
