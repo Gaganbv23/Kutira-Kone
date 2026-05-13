@@ -1,37 +1,152 @@
-# Kutira-Kone (Zero-Waste Fabric Exchange)
+# Kutira-Kone — Zero-Waste Fabric Exchange
 
-This is the complete Android Studio project structure for the Kutira-Kone marketplace app. 
-The application is built using modern Android development practices, including Kotlin, Jetpack Compose, MVVM Architecture, and Navigation Component.
+Kutira-Kone is a hyper-local Android marketplace that helps tailors, boutique owners, and artisans exchange leftover fabric scraps instead of discarding them.
 
-## Step-by-step instructions to run the project
+The application promotes sustainable fabric reuse, reduces textile waste, and supports local artisans and small businesses.
 
-1. **Open the Project:**
-   Open Android Studio, select "Open", and navigate to the `Kutira_kone` folder. Wait for Gradle to sync completely. If you encounter any Gradle errors, make sure you have the required Android SDK (API 34) and Kotlin Plugin installed.
+Built using modern Android development practices with Kotlin and Jetpack Compose.
 
-2. **Firebase Setup:**
-   - Go to the [Firebase Console](https://console.firebase.google.com/).
-   - Create a new project named "Kutira-Kone".
-   - Add an Android App to the project. The package name must exactly match: `com.example.kutirakone`.
-   - Download the `google-services.json` file.
-   - Place the `google-services.json` file inside the `app/` folder of this project.
-   - In the Firebase Console, go to **Authentication** and enable the "Email/Password" sign-in method.
-   - Go to **Firestore Database** and create a database (start in Test Mode for development).
-   - Go to **Storage** and set up Firebase Storage (start in Test Mode for development).
-   - *Note: Once `google-services.json` is added, you can uncomment the `FirebaseApp.initializeApp(this)` line in `KutiraKoneApp.kt` if it's commented.*
+---
 
-3. **Google Maps Configuration:**
-   - Go to the [Google Cloud Console](https://console.cloud.google.com/).
-   - Create a new project or select an existing one.
-   - Enable the **Maps SDK for Android**.
-   - Go to **APIs & Services > Credentials** and generate an API Key.
-   - Open `gradle.properties` in the root of the project and replace `MAPS_API_KEY=YOUR_API_KEY_HERE` with your actual API key.
+# Features
 
-4. **Run the App:**
-   - Select an emulator or connect a physical Android device.
-   - Click the "Run" button in Android Studio.
+- Firebase Authentication
+- Upload fabric scraps with images
+- Browse nearby listings
+- Search and filter materials
+- Google Maps integration
+- Buy/Swap request system
+- Design inspiration section
+- Modern Material 3 UI
+- MVVM Architecture
 
-## Architecture
-- **Data Layer:** `data/models` contains the `User`, `Scrap`, and `Request` data models.
-- **UI Layer:** `ui/screens` contains the Jetpack Compose screens, wrapped in a `BottomNavigationBar` via the Navigation Graph (`KutiraNavGraph.kt`).
+---
 
-*Note: The UI currently has placeholder basic Compose components. To implement the full Firebase Repositories and full ViewModels, you need to sync the project first with the valid `google-services.json`.*
+# Tech Stack
+
+- Kotlin
+- Jetpack Compose
+- Firebase Authentication
+- Firebase Firestore
+- Firebase Storage
+- Google Maps SDK
+- MVVM Architecture
+- Navigation Component
+- Coroutines
+- Material 3
+
+---
+
+# Screens
+
+- Login/Register
+- Home Feed
+- Upload Scrap
+- Scrap Details
+- Requests
+- Map View
+- Profile
+- Design Ideas
+
+---
+
+# Download APK
+
+You can directly download and install the latest APK from the Releases section of this repository.
+
+## Installation Steps
+
+1. Download the APK
+2. Enable "Install from Unknown Sources" on your Android device
+3. Install and open the app
+
+---
+
+# Setup Instructions (For Developers)
+
+## 1. Clone Repository
+
+```bash
+git clone YOUR_REPOSITORY_LINK
+```
+
+---
+
+## 2. Open in Android Studio
+
+Open the project in Android Studio and allow Gradle Sync to complete.
+
+Recommended:
+- Android Studio Latest Version
+- Android SDK 34+
+- Latest Stable Kotlin Version
+
+---
+
+## 3. Firebase Setup
+
+1. Create a Firebase project
+2. Add Android app:
+   com.example.kutirakone
+
+3. Download:
+   google-services.json
+
+4. Place it inside:
+   app/
+
+Enable:
+- Authentication
+- Firestore Database
+- Firebase Storage
+
+---
+
+## 4. Google Maps Setup
+
+1. Enable Maps SDK for Android
+2. Generate API key
+3. Add the API key in:
+   gradle.properties
+
+Example:
+
+```properties
+MAPS_API_KEY=YOUR_API_KEY
+```
+
+---
+
+# Running the App
+
+1. Connect Android device or start emulator
+2. Click Run ▶ in Android Studio
+
+---
+
+# Project Structure
+
+```text
+app/
+├── data/
+├── navigation/
+├── ui/
+├── viewmodel/
+├── utils/
+```
+
+---
+
+# Future Improvements
+
+- Real-time chat
+- Push notifications
+- AI-based fabric recommendations
+- Dark mode
+- Multi-language support
+
+---
+
+# License
+
+This project is developed for educational and sustainability purposes.
