@@ -67,7 +67,7 @@ You can directly download and install the latest APK from the Releases section o
 ## 1. Clone Repository
 
 ```bash
-git clone YOUR_REPOSITORY_LINK
+git clone https://github.com/Gaganbv23/Kutira-Kone.git
 ```
 
 ---
